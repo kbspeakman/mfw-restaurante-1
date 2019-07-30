@@ -12,7 +12,7 @@
 I am using styling using min-height*/
 
 
-#our_story, #review {
+#our_story, #review, #menu, #contact {
     min-height: 600px;
 }
 
@@ -176,5 +176,122 @@ nav.navbar {
     text-shadow: 1px 1px 5px #0a0a0a;
 }
 
-
 /* End of Our Story */
+
+
+
+/* Start of Menu */
+
+#menu{
+    background-image: url('../img/black_linen.png');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+#menu h1{
+    color: white;
+    font-family: 'lobster', 'cursive';
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#menu h3{
+    text-align: center;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#menu a{
+    color: #fa512f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#menu p{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.food{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#menu .nav li a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: transparent;
+}
+
+#menu .nav-justified li a{
+    margin-bottom: -5px;
+}
+
+#menu .nav-tabs li a{
+    border: nine;
+}
+
+/* End of Menu */
+
+
+
+/* Start of Contact */
+
+.contact_form{
+    background-color: #ff6633;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.contact_form form{
+    padding: 5% 0;
+}
+
+.contact_form span{
+    color: #ff0d06;
+}
+
+form span:: ::after{
+    content: '*'
+}
+
+#contact{
+    background-color: #f8512f;
+}
+
+#contact h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 4me;
+    text-align: center;
+}
+
+#contact p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #fff;
+}
+
+#contact_fine_print{
+    font-size: 12px !Important;
+    text-align: center;
+}
+
+address{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.contact_bottom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
